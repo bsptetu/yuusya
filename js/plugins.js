@@ -24,5 +24,6 @@ var $plugins =
 {"name":"PictureCallCommon","status":true,"description":"ピクチャのボタン化プラグイン","parameters":{"透明色を考慮":"true","ピクチャ番号の変数番号":"0","ポインタX座標の変数番号":"3","ポインタY座標の変数番号":"4","タッチ操作抑制":"false","戦闘中常にコモン実行":"false","無効スイッチ":"0"}},
 {"name":"PluginCommandBook","status":true,"description":"プラグインコマンド集","parameters":{"制御文字の拡張":"はい","スクリプトに制御文字適用":"いいえ"}},
 {"name":"ChangeMapTouchPolicy","status":true,"description":"マップタッチ仕様変更プラグイン","parameters":{"initPolicyLevel":"1","invalidForceDash":"false"}},
-{"name":"EventNoLock","status":true,"description":"イベントロック無効化プラグイン","parameters":{}}
+{"name":"EventNoLock","status":true,"description":"イベントロック無効化プラグイン","parameters":{}},
+{"name":"PictureAnimation","status":true,"description":"ピクチャのアニメーションプラグイン","parameters":{"最初のセルに戻る":"false"}}
 ];
