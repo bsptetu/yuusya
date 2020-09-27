@@ -7,7 +7,7 @@ var $plugins =
 {"name":"DTextPicture","status":true,"description":"動的文字列ピクチャ生成プラグイン","parameters":{}},
 {"name":"TMNamePop","status":true,"description":"イベントの頭上に文字列を表示する機能を追加します。","parameters":{"backOpacity":"96","fontSize":"20","fontOutlineWidth":"4","fontOutlineColor":"rgba(0, 0, 0, 0.5)","width":"240","useRoundRect":"0","roundRectRadius":"6"}},
 {"name":"QuickMove","status":true,"description":"歩行とジャンプを軽快に(2000風に)します。","parameters":{}},
-{"name":"OnlineAvatar","status":true,"description":"Firebaseを使ってプレイヤーをオンライン同期します。","parameters":{"apiKey":"AIzaSyAn_xLzHX2ls7CwJeOP37nO8xN9Ubfe2oU","authDomain":"jgame-tuuti.firebaseapp.com","databaseURL":"https://jgame-tuuti.firebaseio.com","avatarEvent":"1","syncSwitchStart":"11","syncSwitchEnd":"20","syncVariableStart":"200","syncVariableEnd":"500"}},
+{"name":"OnlineAvatar","status":true,"description":"Firebaseを使ってプレイヤーをオンライン同期します。","parameters":{"apiKey":"AIzaSyAn_xLzHX2ls7CwJeOP37nO8xN9Ubfe2oU","authDomain":"jgame-tuuti.firebaseapp.com","databaseURL":"https://jgame-tuuti.firebaseio.com","avatarEvent":"1","syncSwitchStart":"100","syncSwitchEnd":"300","syncVariableStart":"200","syncVariableEnd":"500"}},
 {"name":"DataCacheBlocker","status":true,"description":"キャッシュを阻止します。（dataフォルダのみ）","parameters":{}},
 {"name":"AdjustPictureGraphical","status":true,"description":"ピクチャのグラフィカルな位置調整プラグイン。\nパラメータを変更したら「プロジェクトの保存」（Ctrl+S）","parameters":{"グリッドサイズ":"48","テストマップID":"-1"}},
 {"name":"TMAutoNewGame","status":true,"description":"起動時に自動ではじめからゲームを開始します。\r\nWeb用ミニゲームなど、タイトルが不要な場合に使えます。","parameters":{"autoNewGame":"1","allwaysOnTop":"0","autoDevTool":"0"}},
