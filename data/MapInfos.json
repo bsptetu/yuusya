@@ -1,8 +1,8 @@
 [
 null,
 {"id":1,"expanded":true,"name":"MAP001","order":1,"parentId":0,"scrollX":774,"scrollY":846.6666666666666},
-{"id":2,"expanded":true,"name":"MAP002","order":2,"parentId":1,"scrollX":1046,"scrollY":1156},
-{"id":3,"expanded":false,"name":"MAP003","order":3,"parentId":2,"scrollX":1098,"scrollY":1125.3333333333333},
+{"id":2,"expanded":true,"name":"MAP002","order":2,"parentId":1,"scrollX":1035.3333333333333,"scrollY":1145.3333333333333},
+{"id":3,"expanded":false,"name":"MAP003","order":3,"parentId":2,"scrollX":1075.3333333333333,"scrollY":1222.6666666666667},
 {"id":4,"expanded":true,"name":"MAP004","order":4,"parentId":2,"scrollX":1108.6666666666667,"scrollY":1121.3333333333333},
 {"id":5,"expanded":false,"name":"イベントテンプレート","order":5,"parentId":2,"scrollX":676.6666666666666,"scrollY":604}
 ]
