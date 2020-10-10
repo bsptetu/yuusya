@@ -5,7 +5,6 @@ var $plugins =
 {"name":"Community_Basic","status":true,"description":"基本的なパラメーターを設定するプラグインです。","parameters":{"cacheLimit":"10","screenWidth":"624","screenHeight":"750","changeWindowWidthTo":"624","changeWindowHeightTo":"750","renderingMode":"canvas","alwaysDash":"off"}},
 {"name":"111_InputForm","status":true,"description":"フォーム作って文字入力","parameters":{}},
 {"name":"DTextPicture","status":true,"description":"動的文字列ピクチャ生成プラグイン","parameters":{}},
-{"name":"TMNamePop","status":true,"description":"イベントの頭上に文字列を表示する機能を追加します。","parameters":{"backOpacity":"96","fontSize":"20","fontOutlineWidth":"4","fontOutlineColor":"rgba(0, 0, 0, 0.5)","width":"240","useRoundRect":"0","roundRectRadius":"6"}},
 {"name":"QuickMove","status":true,"description":"歩行とジャンプを軽快に(2000風に)します。","parameters":{}},
 {"name":"OnlineAvatar","status":false,"description":"Firebaseを使ってプレイヤーをオンライン同期します。","parameters":{"apiKey":"AIzaSyAn_xLzHX2ls7CwJeOP37nO8xN9Ubfe2oU","authDomain":"jgame-tuuti.firebaseapp.com","databaseURL":"https://jgame-tuuti.firebaseio.com","avatarEvent":"1","syncSwitchStart":"100","syncSwitchEnd":"300","syncVariableStart":"200","syncVariableEnd":"500"}},
 {"name":"DataCacheBlocker","status":true,"description":"キャッシュを阻止します。（dataフォルダのみ）","parameters":{}},
@@ -25,5 +24,7 @@ var $plugins =
 {"name":"PluginCommandBook","status":true,"description":"プラグインコマンド集","parameters":{"制御文字の拡張":"はい","スクリプトに制御文字適用":"いいえ"}},
 {"name":"ChangeMapTouchPolicy","status":true,"description":"マップタッチ仕様変更プラグイン","parameters":{"initPolicyLevel":"1","invalidForceDash":"false"}},
 {"name":"EventNoLock","status":true,"description":"イベントロック無効化プラグイン","parameters":{}},
-{"name":"PictureAnimation","status":true,"description":"ピクチャのアニメーションプラグイン","parameters":{"最初のセルに戻る":"false"}}
+{"name":"PictureAnimation","status":true,"description":"ピクチャのアニメーションプラグイン","parameters":{"最初のセルに戻る":"false"}},
+{"name":"EventReSpawn","status":true,"description":"イベント動的生成プラグイン","parameters":{"keepSelfSwitch":"false","tryRandomCount":"1000","CertainSpawnSwitch":"0"}},
+{"name":"TemplateEvent","status":true,"description":"テンプレートイベントプラグイン","parameters":{"TemplateMapId":"5","KeepEventId":"false","OverrideTarget":"{\"Image\":\"false\",\"Direction\":\"false\",\"Move\":\"false\",\"Priority\":\"false\",\"Trigger\":\"false\",\"Option\":\"false\"}","AutoOverride":"false","IntegrateNote":"0"}}
 ];
