@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <style>
+#gameFrame{
+    position: absolute;
+    top: 50%;  /* 要素の上端を中央に */
+    left: 50%;  /* 要素の左端を中央に */
+  visibility: visible;
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    max-width:100%;
+    zIndex = 9999;
+}
+    </style>
         <meta charset="UTF-8">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -27,6 +39,7 @@
         <script type="text/javascript" src="js/rpg_windows.js"></script>
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
+<iframe id="gameFrame" allowfullscreen width="400" height="700" src="https://game9.jp/index11.html" frameborder="0" scrolling="no"></iframe>
     </body>
 </html>
 

@@ -2077,7 +2077,7 @@ Graphics.startLoading = function() {
 Graphics._setupProgress = function(){
     this._progressElement = document.createElement('div');
     this._progressElement.id = 'loading-progress';
-    this._progressElement.width = 600;
+    this._progressElement.width = 400;
     this._progressElement.height = 300;
     this._progressElement.style.visibility = 'hidden';
 
