@@ -6,7 +6,6 @@ var $plugins =
 {"name":"111_InputForm","status":true,"description":"フォーム作って文字入力","parameters":{}},
 {"name":"DTextPicture","status":true,"description":"動的文字列ピクチャ生成プラグイン","parameters":{}},
 {"name":"QuickMove","status":false,"description":"歩行とジャンプを軽快に(2000風に)します。","parameters":{}},
-{"name":"OnlineAvatar","status":true,"description":"Firebaseを使ってプレイヤーをオンライン同期します。","parameters":{"apiKey":"AIzaSyDT0fTCJPCSeEjCasW5abFdRG17gLP5rTE","authDomain":"tenseiyuusya.firebaseapp.com","databaseURL":"https://tenseiyuusya.firebaseio.com","avatarEvent":"1","syncSwitchStart":"200","syncSwitchEnd":"300","syncVariableStart":"200","syncVariableEnd":"500"}},
 {"name":"DataCacheBlocker","status":true,"description":"キャッシュを阻止します。（dataフォルダのみ）","parameters":{}},
 {"name":"AdjustPictureGraphical","status":false,"description":"ピクチャのグラフィカルな位置調整プラグイン。\nパラメータを変更したら「プロジェクトの保存」（Ctrl+S）","parameters":{"グリッドサイズ":"48","テストマップID":"-1"}},
 {"name":"TMAutoNewGame","status":true,"description":"起動時に自動ではじめからゲームを開始します。\r\nWeb用ミニゲームなど、タイトルが不要な場合に使えます。","parameters":{"autoNewGame":"1","allwaysOnTop":"0","autoDevTool":"0"}},
@@ -26,8 +25,9 @@ var $plugins =
 {"name":"ChangeMapTouchPolicy","status":true,"description":"マップタッチ仕様変更プラグイン","parameters":{"initPolicyLevel":"1","invalidForceDash":"false"}},
 {"name":"EventNoLock","status":true,"description":"イベントロック無効化プラグイン","parameters":{}},
 {"name":"PictureAnimation","status":true,"description":"ピクチャのアニメーションプラグイン","parameters":{"最初のセルに戻る":"false"}},
-{"name":"EventReSpawn","status":true,"description":"イベント動的生成プラグイン","parameters":{"keepSelfSwitch":"false","tryRandomCount":"1000","CertainSpawnSwitch":"0"}},
 {"name":"TemplateEvent","status":true,"description":"テンプレートイベントプラグイン","parameters":{"TemplateMapId":"5","KeepEventId":"false","OverrideTarget":"{\"Image\":\"false\",\"Direction\":\"false\",\"Move\":\"false\",\"Priority\":\"false\",\"Trigger\":\"false\",\"Option\":\"false\"}","AutoOverride":"false","IntegrateNote":"0"}},
+{"name":"EventReSpawn","status":true,"description":"イベント動的生成プラグイン","parameters":{"keepSelfSwitch":"false","tryRandomCount":"1000","CertainSpawnSwitch":"0"}},
 {"name":"MKR_PlayerMoveForbid","status":true,"description":"(v1.0.5) プレイヤー移動禁止プラグイン","parameters":{"Default_Move_Flag":"22","Default_Menu_Flag":"false","Enter Flag":"false"}},
-{"name":"PictureVariableSetting","status":true,"description":"ピクチャ関連のイベント機能拡張プラグイン","parameters":{"初期値":"OFF","ピクチャ表示最大数":""}}
+{"name":"PictureVariableSetting","status":true,"description":"ピクチャ関連のイベント機能拡張プラグイン","parameters":{"初期値":"OFF","ピクチャ表示最大数":""}},
+{"name":"OnlineAvatar","status":true,"description":"Firebaseを使ってプレイヤーをオンライン同期します。","parameters":{"apiKey":"AIzaSyDT0fTCJPCSeEjCasW5abFdRG17gLP5rTE","authDomain":"tenseiyuusya.firebaseapp.com","databaseURL":"https://tenseiyuusya.firebaseio.com","avatarEvent":"1","syncSwitchStart":"200","syncSwitchEnd":"300","syncVariableStart":"200","syncVariableEnd":"500"}}
 ];
