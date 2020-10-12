@@ -6,7 +6,7 @@ var $plugins =
 {"name":"111_InputForm","status":true,"description":"フォーム作って文字入力","parameters":{}},
 {"name":"DTextPicture","status":true,"description":"動的文字列ピクチャ生成プラグイン","parameters":{}},
 {"name":"QuickMove","status":false,"description":"歩行とジャンプを軽快に(2000風に)します。","parameters":{}},
-{"name":"OnlineAvatar","status":false,"description":"Firebaseを使ってプレイヤーをオンライン同期します。","parameters":{"apiKey":"AIzaSyAn_xLzHX2ls7CwJeOP37nO8xN9Ubfe2oU","authDomain":"jgame-tuuti.firebaseapp.com","databaseURL":"https://jgame-tuuti.firebaseio.com","avatarEvent":"1","syncSwitchStart":"100","syncSwitchEnd":"300","syncVariableStart":"200","syncVariableEnd":"500"}},
+{"name":"OnlineAvatar","status":true,"description":"Firebaseを使ってプレイヤーをオンライン同期します。","parameters":{"apiKey":"AIzaSyDT0fTCJPCSeEjCasW5abFdRG17gLP5rTE","authDomain":"tenseiyuusya.firebaseapp.com","databaseURL":"https://tenseiyuusya.firebaseio.com","avatarEvent":"1","syncSwitchStart":"200","syncSwitchEnd":"300","syncVariableStart":"200","syncVariableEnd":"500"}},
 {"name":"DataCacheBlocker","status":true,"description":"キャッシュを阻止します。（dataフォルダのみ）","parameters":{}},
 {"name":"AdjustPictureGraphical","status":false,"description":"ピクチャのグラフィカルな位置調整プラグイン。\nパラメータを変更したら「プロジェクトの保存」（Ctrl+S）","parameters":{"グリッドサイズ":"48","テストマップID":"-1"}},
 {"name":"TMAutoNewGame","status":true,"description":"起動時に自動ではじめからゲームを開始します。\r\nWeb用ミニゲームなど、タイトルが不要な場合に使えます。","parameters":{"autoNewGame":"1","allwaysOnTop":"0","autoDevTool":"0"}},
