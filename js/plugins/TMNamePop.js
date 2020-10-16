@@ -267,16 +267,16 @@ if (!Imported.TMEventBase) {
 
   Sprite_TMNamePop.prototype.refresh = function(text) {
     this.bitmap.clear();
-    this.bitmap.textColor = '#ffffff';
+    this.bitmap.textColor = '#000000';
     text = this.convertEscapeCharacters(text);
     var tw = this.bitmap.measureTextWidth(text);
     var x = Math.max((this.width - tw) / 2 - 4, 0);
     var w = Math.min(tw + 8, this.width);
     this.bitmap.paintOpacity = backOpacity;
     if (Imported.TMBitmapEx && useRoundRect) {
-      this.bitmap.fillRoundRect(x, 0, w, this.height, roundRectRadius, '#000000');
+      this.bitmap.fillRoundRect(x, 0, w, this.height, roundRectRadius, '#ffffff');
     } else {
-      this.bitmap.fillRect(x, 0, w, this.height, '#000000');
+      this.bitmap.fillRect(x, 0, w, this.height, '#ffffff');
     }
     this.bitmap.paintOpacity = 255;
     this.bitmap.drawText(text, 0, 0, this.width, this.height, 'center');

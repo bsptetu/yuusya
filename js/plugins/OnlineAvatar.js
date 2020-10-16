@@ -202,7 +202,7 @@ function Game_Avatar() {
 
 	//新しいマップのオンラインデータを購読してアバターの情報を受け取る
 	OnlineManager.connectNewMap = function() {
-		if (!this.user || !this.parameters['avatarEvent'] || $gameSwitches.value(3) == false) return;
+		if (!this.user || !this.parameters['avatarEvent']) return;
 
 		//前のマップのコールバックはデタッチして、座標情報をリムーブ
 		if (this.mapRef) {
